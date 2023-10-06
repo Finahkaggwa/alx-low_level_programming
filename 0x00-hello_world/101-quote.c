@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <unistd.hd>
 /**
  * main - Creating a C program that prints a sentence followed by a new line to the standard error
