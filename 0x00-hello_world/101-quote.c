@@ -1,6 +1,6 @@
 #include <unistd.hd>
 /**
- * main - Creating a C program that prints a sentence followed by a new line to the standard error
+ * main - A C program that prints a sentence to the standard error
  * Return: 1 (If the return is 1, then the code is successful)
  */
 int main(void)
