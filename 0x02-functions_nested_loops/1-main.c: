@@ -1,0 +1,5 @@
+n.c:10:5: error: implicit declaration of function ‘print_alphabet’ [-Werror=implicit-function-declaration]
+   10 |     print_alphabet();
+      |     ^~~~~~~~~~~~~~
+cc1: all warnings being treated as errors
+
