@@ -1,4 +1,4 @@
-#includee "main.h"
+#include "main.h"
 /**
  * print_diagonal - prints diagonal line in the terminal
  * @n: function parameter
@@ -11,12 +11,14 @@ void print_diagonal(int n)
 		_putchar('\n');
 	else
 	{
-		int i;
+		int i, y;
 
 		for (i = 0; i < n; i++)
 		{
+			for (y = 0; y <= i; y++)
+				_putchar(' ');
 			_putchar('\\');
-			_putchar(''\n');
+			_putchar('\n');
 		}
 	}
 }
